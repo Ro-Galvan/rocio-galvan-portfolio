@@ -1,3 +1,13 @@
 body {
     background-color: lightgrey;
 }
+
+.links{
+    /* removed  ul bullets, spaced out the 3 links and alinged to left of page in header */
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: -3%;
+    justify-content: space-around;
+    
+}
