@@ -11,8 +11,10 @@ body {
     justify-content: space-around;
     
 }
+/*  */
 aside{
     background-color: steelblue;
+    max-width: 10%;
 }
 
 .aside-sections{
@@ -21,7 +23,7 @@ aside{
 }
 
 #item-1{
-margin-block: 200px;
+margin-block: 150px;
 }
 
 #item-2{
