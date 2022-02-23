@@ -2,24 +2,39 @@ body {
     background-color: lightgrey;
 }
 
+header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgray;
+  padding: 1%;
+  height: 5vh;
+}
+
+  nav {
+  display: inline-flexbox;
+  }
+
 .links {
     /* removed  ul bullets, spaced out the 3 links and alinged to left of page in header */
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
-    margin: 0 auto;
-    /* justify-content: space-around; */
+    width: 200px;
+    /* justify-content: flex-end; */
+    /* margin: 0 auto; */
+    justify-content: space-around;
 }
 
 main {
     display: flex;
     display: 4;
+    height: 90vh;
 }
 
 .about-me {
     flex: 1;
-    order: 2;
-    margin-top: 8%;
+    /* order: 2; */
+    margin-top: 2%;
 /* display: flex; */
 /* margin: 20%; */
 }
@@ -27,7 +42,7 @@ main {
 .sidebar {
     background-color: steelblue;
     /* max-width: 10%; */
-    order: 1;
+    /* order: 1; */
 }
 
 .sidebar-sections {
@@ -50,7 +65,7 @@ margin-block: 200px;
 
 .work-projects {
     display: flex;
-    order: 3;
+    /* order: 3; */
     /* flex-wrap: wrap; */
 }
 
