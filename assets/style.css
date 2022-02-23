@@ -7,19 +7,33 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    margin: -3%;
-    justify-content: space-around;
-    
-}
-/*  */
-aside{
-    background-color: steelblue;
-    max-width: 10%;
+    margin: 0 auto;
+    /* justify-content: space-around; */
 }
 
-.aside-sections{
+main {
+    display: flex;
+    display: 4;
+}
+
+.about-me{
+    flex: 1;
+    order: 2;
+    margin-top: 8%;
+/* display: flex; */
+/* margin: 20%; */
+}
+
+.sidebar{
+    background-color: steelblue;
+    /* max-width: 10%; */
+    order: 1;
+}
+
+.sidebar-sections{
     list-style-type: none;
-    text-align: left;
+    /* text-align: left; */
+    /* flex-direction: column; */
 }
 
 #item-1{
@@ -32,4 +46,14 @@ margin-block: 200px;
 
 #item-3{
 margin-block: 200px;
+}
+
+.Work {
+    display: flex;
+    order: 3;
+    flex-wrap: wrap;
+}
+
+footer{
+    text-align: center;
 }
