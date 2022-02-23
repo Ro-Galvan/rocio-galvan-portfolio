@@ -50,7 +50,7 @@ margin-block: 200px;
 
 .work-projects {
     display: flex;
-    /* order: 3; */
+    order: 3;
     /* flex-wrap: wrap; */
 }
 
