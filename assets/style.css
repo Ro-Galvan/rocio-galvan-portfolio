@@ -2,7 +2,7 @@ body {
     background-color: lightgrey;
 }
 
-.links{
+.links {
     /* removed  ul bullets, spaced out the 3 links and alinged to left of page in header */
     list-style-type: none;
     display: flex;
@@ -16,7 +16,7 @@ main {
     display: 4;
 }
 
-.about-me{
+.about-me {
     flex: 1;
     order: 2;
     margin-top: 8%;
@@ -24,23 +24,23 @@ main {
 /* margin: 20%; */
 }
 
-.sidebar{
+.sidebar {
     background-color: steelblue;
     /* max-width: 10%; */
     order: 1;
 }
 
-.sidebar-sections{
+.sidebar-sections {
     list-style-type: none;
     /* text-align: left; */
     /* flex-direction: column; */
 }
 
-#item-1{
+#item-1 {
 margin-block: 150px;
 }
 
-#item-2{
+#item-2 {
 margin-block: 200px;
 }
 
@@ -48,12 +48,12 @@ margin-block: 200px;
 margin-block: 200px;
 }
 
-.Work {
+.work-projects {
     display: flex;
-    order: 3;
-    flex-wrap: wrap;
+    /* order: 3; */
+    /* flex-wrap: wrap; */
 }
 
-footer{
+footer {
     text-align: center;
 }
