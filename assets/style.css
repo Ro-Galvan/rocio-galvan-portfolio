@@ -16,12 +16,9 @@ header {
   }
 
 .links {
-    /* removed  ul bullets, spaced out the 3 links and alinged to left of page in header */
     list-style-type: none;
     display: flex;
     width: 200px;
-    /* justify-content: flex-end; */
-    /* margin: 0 auto; */
     justify-content: space-around;
 }
 
@@ -48,7 +45,8 @@ background-color: cornflowerblue;
 }
 
 .sidebar-sections {
-    list-style-type: none;
+    display: flex;
+    /* list-style-type: none; */
     /* text-align: left; */
     /* flex-direction: column; */
 }
