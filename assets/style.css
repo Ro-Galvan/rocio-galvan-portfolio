@@ -37,10 +37,12 @@ main {
     margin-top: 2%;
 /* display: flex; */
 /* margin: 20%; */
+background-color: cornflowerblue;
 }
 
 .sidebar {
     background-color: steelblue;
+    margin-bottom: -3.3%;
     /* max-width: 10%; */
     /* order: 1; */
 }
@@ -64,11 +66,19 @@ margin-block: 200px;
 }
 
 .work-projects {
+    background-color: pink;
     display: flex;
     /* order: 3; */
     /* flex-wrap: wrap; */
 }
 
+.contact {
+    /* display: flex; */
+    background-color: aqua;
+}
+
 footer {
     text-align: center;
+    background-color: darkgray;
+    padding-top: 1%;
 }
