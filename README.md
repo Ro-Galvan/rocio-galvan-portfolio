@@ -12,4 +12,4 @@ This is my first from scratch website. I created it using HTML and CSS. It has s
 
 # Visual
 
-![Website Overview](./assets/for-readme.jpg
+![Website Overview](./assets/for-readme.jpg)
