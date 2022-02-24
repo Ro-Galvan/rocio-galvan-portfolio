@@ -1,8 +1,8 @@
 # rocio-galvan-portfolio
 
-[link to live website](https://ro-galvan.github.io/fun-seo-refactor/)
+[link to live website](https://ro-galvan.github.io/rocio-galvan-portfolio/)
 
-[link to GitHub repository](https://github.com/Ro-Galvan/fun-seo-refactor)
+[link to GitHub repository](https://github.com/Ro-Galvan/rocio-galvan-portfolio)
 
 
 # Description
