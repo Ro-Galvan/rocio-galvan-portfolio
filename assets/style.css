@@ -91,3 +91,24 @@ footer {
 /* @media (max-width: 980px ) {
     body
 } */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    .sidebar {
+      background: rgb(204, 255, 229);
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      background-color: rgb(255, 204, 204);
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sidebar {
+      background-color: black;
+    }
+  }
