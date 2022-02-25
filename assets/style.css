@@ -1,6 +1,7 @@
 body {
     background-color: lightgrey;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
   align-items: center;
   padding: 1%;
   height: 5vh;
-  background-color: rgb(165, 203, 235);;
+  background-color: rgb(165, 203, 235);
 }
 
 nav {
@@ -51,7 +52,8 @@ main {
 .main-content {
 display: flex;
 flex-direction: column;
-/* justify-content: space-between;  */
+width: 100%;
+height: 90vh;
 }
 
 .about-me {
@@ -86,6 +88,7 @@ footer {
     text-align: center;
     background-color: rgb(165, 203, 235);
     padding-top: 1%;
+    height: 10vh;
 }
 
 /* @media (max-width: 980px ) {
