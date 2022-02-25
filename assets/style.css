@@ -20,7 +20,7 @@ nav {
 .links {
     list-style-type: none;
     display: flex;
-    width: 200px;
+    width: 300px;
     justify-content: space-around;
 }
 
@@ -33,11 +33,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin-bottom: -3.3%; */
     width: 5.5%;
 }
 
-#item-1 {
+/* keeping in case I need to edit */
+/* #item-1 {
 /* margin-block: 150px; */
 }
 
@@ -47,7 +47,7 @@ main {
 
 #item-3{
 /* margin-block: 100px; */
-}
+} */
 
 .main-content {
 display: flex;
@@ -60,24 +60,18 @@ height: 90vh;
 margin-top: -1%;
 padding: 1%;
 text-align: center;
-/* background-color: cornflowerblue; */
 }
 
 .work-projects {
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* order: 3; */
-    /* flex-wrap: wrap; */
 }
 
-.contact {
-    /* display: flex;
-    justify-content: space-between; */
-    /* background-color: aqua; */
-}
+/* .contact {
+   
+} */
 
 .reach-out {
     display: flex;
@@ -91,9 +85,6 @@ footer {
     height: 10vh;
 }
 
-/* @media (max-width: 980px ) {
-    body
-} */
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
@@ -112,6 +103,6 @@ footer {
   /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
     .sidebar {
-      background-color: black;
+      background-color: rgb(236, 157, 92);
     }
   }
